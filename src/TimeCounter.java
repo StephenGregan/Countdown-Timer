@@ -5,7 +5,7 @@ public class TimeCounter {
 	
 	public static void main(String [] args) throws InterruptedException
 	{
-		for(int i = 60; i >= 0; i--)
+		for(int i = 0; i >= 0; i++)
 		{
 			thread.sleep(1000);
 			System.out.println(i);
